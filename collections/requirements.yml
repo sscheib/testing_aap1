@@ -1,0 +1,5 @@
+---
+roles:
+  - name: 'ansible-sshd'
+    src: 'https://github.com/sscheib/ansible-sshd'
+    scm: 'git'
