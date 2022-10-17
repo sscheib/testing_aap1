@@ -2,5 +2,5 @@
 - hosts: 'all'
 
   tasks:
-    - debug: var=Password1
-    - debug: var=password1
+    - debug: var=mypass
+    - debug: var=myuser
