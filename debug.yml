@@ -1,0 +1,6 @@
+---
+- hosts: 'all'
+
+  tasks:
+    - debug: var=Password1
+    - debug: var=password1
