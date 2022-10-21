@@ -2,5 +2,11 @@
 - hosts: 'all'
 
   tasks:
-    - debug: var=mypass
-    - debug: var=myuser
+    - debug:
+        var: mypass
+    - debug: 
+        var: myuser
+    - debug:
+        var: ansible_user
+    - debug:
+        var: ansible_password
